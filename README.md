@@ -14,6 +14,7 @@ To write a YACC program to recognize a valid variable which starts with a letter
 8.	Enter a statement as input and the valid variables are identified as output.
 # PROGRAM
 
+```
 %{
 /* This LEX program returns the tokens for the Expression */
 #include"y.tab.h"
@@ -60,7 +61,7 @@ yyparse();
 yyerror(char*s)
 {
 }
-
+```
 # Output
 
 ![Screenshot 2024-11-10 150454](https://github.com/user-attachments/assets/8953a173-43cc-475e-97d8-2865d0a7a400)
